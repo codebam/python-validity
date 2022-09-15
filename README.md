@@ -64,7 +64,7 @@ It `systemctl status python3-validity` complains about errors on startup, you ma
 ```
 $ sudo systemctl stop python3-validity
 $ sudo validity-sensors-firmware
-$ sudo python3 /usr/share/python-validity/playground/factory-reset.py
+$ sudo python3 /var/usr/share/python-validity/playground/factory-reset.py
 
 # At some of the above points you may get a 'device busy' error,
 # depending on how systemctl plays along. Kill offending processes if
@@ -130,7 +130,7 @@ Note the indentation; each entry has to be preceded by at least one space.
 This package contains a set of scripts you can use to do a low-level debugging of the sensor protocol.
 Here is a couple of examples of how you can use them.
 Before using the scripts, make sure you've disabled the dbus service shipped with this package.
-All examples assume that you are in `/usr/share/python-validity/playground/` directory and your device is already paired.
+All examples assume that you are in `/var/usr/share/python-validity/playground/` directory and your device is already paired.
 
 ### Initialize a session
 Before talking to a device you will need to open it and start a new TLS session

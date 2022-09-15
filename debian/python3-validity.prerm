@@ -2,7 +2,7 @@
 
 set -e
 
-#if [ -x "/usr/bin/deb-systemd-invoke" ] && [ "$1" = remove ]; then
+#if [ -x "/var/usr/bin/deb-systemd-invoke" ] && [ "$1" = remove ]; then
 #    deb-systemd-invoke stop 'python3-validity.service' || true
 #fi
 

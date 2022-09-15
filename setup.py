@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/var/usr/bin/python3
 
 from setuptools import setup
 
